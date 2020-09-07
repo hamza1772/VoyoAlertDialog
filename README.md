@@ -26,7 +26,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.hamza1772:VoyoAlertDialog:1.0.2'
+	        implementation 'com.github.hamza1772:VoyoAlertDialog:1.0.3'
 	}
 
 ## Usage
@@ -34,16 +34,15 @@ Step 2. Add the dependency
 **Show material progress**
 
     final VoyoAlertDialog dialog = new VoyoAlertDialog();
-        dialog.setTitle("title");
-        dialog.setMessage("message");
-        dialog.setPositiveBtnColor(R.color.colorAccent);
-        dialog.setPositiveButton("OK", new VoyoAlertDialog.DialogClickListener() {
-            @Override
-            public void onPositiveClick() {
-                dialog.dismiss();
-            }
-        });
 
-        dialog.show(getSupportFragmentManager(), "");
+    dialog.setTitle("title")
+            .setMessage("message")
+            .setPositiveBtnColor(R.color.colorAccent)
+            .setPositiveButton("OK", new VoyoAlertDialog.DialogClickListener() {
+                @Override
+                public void onPositiveClick() {
+                    dialog.dismiss();
+                }
+            }).show(getSupportFragmentManager(), "");
 
        

@@ -22,45 +22,29 @@ public class VoyoAlertDialog extends DialogFragment {
     private String message = "";
     private String positiveBtn = "";
     private String negativeBtn = "";
-
     private int positiveBtnColor = 0;
-
     private DialogClickListener dialogClickListener;
 
-    public VoyoAlertDialog() {
-    }
 
-    public VoyoAlertDialog(String title, String message) {
+    public VoyoAlertDialog setTitle(String title) {
         this.title = title;
-        this.message = message;
+        return this;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public void setPositiveBtnColor(int positiveBtnColor) {
+    public VoyoAlertDialog setPositiveBtnColor(int positiveBtnColor) {
         this.positiveBtnColor = positiveBtnColor;
+        return this;
     }
 
-    public void setMessage(String message) {
+    public VoyoAlertDialog setMessage(String message) {
         this.message = message;
+        return this;
     }
 
-    public void setPositiveButton(String positiveBtn, DialogClickListener dialogClickListener) {
+    public VoyoAlertDialog setPositiveButton(String positiveBtn, DialogClickListener dialogClickListener) {
         this.positiveBtn = positiveBtn;
         this.dialogClickListener = dialogClickListener;
-    }
-
-    public VoyoAlertDialog(String message) {
-        this.message = message;
-    }
-
-    public VoyoAlertDialog(String title, String message, String positiveBtn, String negativeBtn) {
-        this.title = title;
-        this.message = message;
-        this.positiveBtn = positiveBtn;
-        this.negativeBtn = negativeBtn;
+        return this;
     }
 
     @NonNull
