@@ -1,15 +1,13 @@
-![](https://github.com/TutorialsAndroid/KAlertDialog/blob/master/sample/src/main/res/mipmap-xxhdpi/ic_launcher.png)
-
 Voyo Alert Dialog 
 ===================
 VoyoAlertDialog for Android, a beautiful and material alert dialog to use in your android app.
 
 **Library available at JitPack.io**
 
-[![](https://jitpack.io/v/TutorialsAndroid/KAlertDialog.svg)](https://jitpack.io/#hamza1772/VoyoAlertDialog)
+[![](https://jitpack.io/#hamza1772/VoyoAlertDialog.svg)](https://jitpack.io/#hamza1772/VoyoAlertDialog)
 
 ## ScreenShot
-![](https://github.com/TutorialsAndroid/KAlertDialog/blob/master/art/device-2019-03-23-132617.png)
+![](https://jitpack.io/#hamza1772/VoyoAlertDialog/screen_shots/Screenshot_20200907-131323_VoyoDialog.jpg)
 
 ## Setup
 The simplest way to use AlertDialog is to add the library as dependency to your build.
