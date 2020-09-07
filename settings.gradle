@@ -1,0 +1,3 @@
+include ':VoyoAlertDialog'
+include ':app'
+rootProject.name = "VoyoDialog"
