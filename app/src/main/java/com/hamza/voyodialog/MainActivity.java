@@ -15,10 +15,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         final VoyoAlertDialog dialog = new VoyoAlertDialog();
-
         dialog.setTitle("title");
         dialog.setMessage("message");
-        //dialog.setPositiveBtnColor(R.color.colorAccent);
+        dialog.setPositiveBtnColor(R.color.colorAccent);
         dialog.setPositiveButton("OK", new VoyoAlertDialog.DialogClickListener() {
             @Override
             public void onPositiveClick() {
